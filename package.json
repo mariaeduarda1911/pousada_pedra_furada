@@ -1,0 +1,21 @@
+{
+  "name": "pousada_pedra_furada",
+  "version": "1.0.0",
+  "description": "Meu projeto",
+  "keywords": [],
+  "homepage": "https://github.com/mariaeduarda1911/pousada_pedra_furada#readme",
+  "bugs": {
+    "url": "https://github.com/mariaeduarda1911/pousada_pedra_furada/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaeduarda1911/pousada_pedra_furada.git"
+  },
+  "license": "ISC",
+  "author": "Maria Eduarda Neres Oliveira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
