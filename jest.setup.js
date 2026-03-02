@@ -1,14 +1,17 @@
 // jest.setup.js 
 require("@testing-library/jest-dom"); 
  
-//  Silencia o warning do React sobre JSX transform antigo 
+// Silencia o warning do React sobre JSX transform antigo 
 const originalWarn = console.warn; 
 console.warn = (...args) => { 
+
+// Se os argumentos forem string ou tiver a mensagem, deverá ignorar
   if ( 
     typeof args[0] === "string" && 
     args[0].includes("using an outdated JSX transform") 
   ) { 
-    return; 
+    return; // Não exibe esse warn
   } 
-  originalWarn(...args); 
+  // Para outros avisos o warn funcionará normalmente
+  originalWarn(...args);
 }; 
