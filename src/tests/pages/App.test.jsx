@@ -1,6 +1,6 @@
 // Importações
 import { render, screen } from "@testing-library/react"; 
-import Home from "../index"; 
+import Home from "../../pages/index"; 
 
 // Texto que deve aparecer ao sucesso do teste
 describe("Página inicial", () => { 
