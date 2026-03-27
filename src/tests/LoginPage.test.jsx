@@ -1,7 +1,7 @@
 // src/tests/pages/LoginPage.test.jsx
 import { render, screen, fireEvent } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
-import LoginPage from "../../src/LoginPage";
+import LoginPage from "../pages/LoginPage";
 describe("LoginPage.jsx — Comportamento do formulário de login", () => {
  beforeEach(() => {
  window.alert = jest.fn(); // mock do alert
